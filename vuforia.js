@@ -1,7 +1,7 @@
 var vuforia = function () {
 
-    var client = require(__dirname + '/lib/client');
-    var util = require(__dirname + '/lib/util');
+    var client = require('./lib/client');
+    var util = require('./lib/util');
 
     return {
 
